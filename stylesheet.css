@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  border-collapse: collapse;
+  margin: 0px;
+}
+
+.tablestyle {
+  display: flex;
+  justify-content: center;
+}
+
+.titleheader {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.div_row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.div50 {
+  display: flex;
+  flex: 50%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 90px;
+  max-width: 90px;
+  min-width: 90px;
+  font-size: 50px;
+}
+
+.div50_left {
+  display: flex;
+  flex: 50%;
+  color: white;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 45px;
+  max-width: 90px;
+  min-width: 90px;
+  font-size: 30px;
+}
+
+.div50_left_extension {
+  text-align: center;
+  font-size: 45px;
+  color: #dd84ff;
+  font-family: 'Inconsolata', monospace;
+}
+
+.div_hover_darkgreen:hover {
+  background-color: #1cd5914a;
+  cursor: pointer;
+}
+
+.div32 {
+  display: flex;
+  flex: 32%;
+  justify-content: center;
+}
+
+.div36 {
+  display: flex;
+  flex: 36%;
+  justify-content: center;
+}
+
+.vertical_line {
+  border: 1px solid #1cd591;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+}
+
+td {
+  height: 11.6vw;
+  width: 11.6vw;
+  font-size: 60px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  border: solid 3px #5d5d5d;
+}
+
+@media screen and (min-width: 1295px) {
+  td {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+td:hover {
+  background-color: #1b1b1bfa;
+  cursor: pointer;
+}
+
+button {
+  background-color: #711c91;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #581870;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+footer {
+  color: lightgrey;
+  margin-left: 30px;
+  font-family: sans-serif;
+  line-height: 35px;
+}
